@@ -4,11 +4,100 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 5rem auto;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.header p:nth-of-type(1) {
+  font-size: 1.65rem;
+  font-weight: 200;
+  color: #4c4e61;
+  margin-bottom: 0.25rem;
+}
+
+.header h1 {
+  color: #4c4e61;
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.header p:nth-of-type(2) {
+  color: #a3a5ae;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.row-cards {
+  margin: 3rem 0;
+}
+
+.row-cards .card {
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 8px 15px #c5cbe2;
+          box-shadow: 0px 8px 15px #c5cbe2;
+}
+
+.row-cards .card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.row-cards .card p {
+  font-size: 0.85rem;
+  color: #a3a5ae;
+}
+
+.row-cards .card .card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.row-cards .card .card-icon img {
+  width: 22.5%;
+}
+
+.row-cards .card-1 {
+  border-top: 4px solid #45d3d3;
+}
+
+.row-cards .card-2 {
+  border-top: 4px solid #ea5353;
+}
+
+.row-cards .card-3 {
+  border-top: 4px solid #fcaf4a;
+  display: inline-block;
+}
+
+.row-cards .card-3 .card-text {
+  margin-bottom: 2rem;
+}
+
+.row-cards .card-4 {
+  border-top: 4px solid #549ef2;
 }
 
 .attribution {
